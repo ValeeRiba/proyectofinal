@@ -1,3 +1,4 @@
+/*variables colores*/
 .whatsapp {
   color: white;
   position: fixed;
@@ -18,17 +19,22 @@
   background-color: white;
 }
 
-body {
-  background-color: aqua;
-  font-family: sans-serif;
-}
-
-.footer {
-  background-color: violet;
-}
-
 header {
   background-color: brown;
+}
+
+footer {
+  background-color: #edbcff;
+}
+footer p {
+  color: #ad0069;
+}
+footer .copyright {
+  background-color: #ad0069;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

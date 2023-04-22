@@ -18,14 +18,19 @@
     background-color: white;
   }
 }
-
 body {
   background-color: aqua;
-  font-family: sans-serif;
-}
-.footer {
-  background-color: violet;
 }
 header {
   background-color: brown;
+}
+footer {
+  background-color: $info;
+
+  p {
+    color: $secondary;
+  }
+  .copyright {
+    background-color: $secondary;
+  }
 }
