@@ -22,12 +22,7 @@
     <!-- favicon -->
     <link rel="icon" href="./img/corazon (1).ico" type="imagen/ico" />
     <!-- fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <enlace href="https: //fonts.googleapis.com/css2? family= Vina+Sans & display=swap" rel="stylesheet"></enlace>
     <!-- link de css -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- link de bs -->
@@ -39,113 +34,83 @@
     />
   </head>
 
-  <body>
+  <body class="body">
     <!-- aqui comienza la cabecera -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar sticky top">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+      <!-- barra de navegacion -->
+      <nav class="navbar sticky-top  navbar-expand-lg navbar-light">
+        <div class="container-fluid ">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo03" 
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand">
-            <img
-              src="./img/logonuevo.jpg"
-              alt="logo"
-              width="50"
-              height="auto"
-            />
-          </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a class="navbar-brand" href="./index.html"></a>
+          <img src="./img/logonuevo.jpg" alt="logo" width="50" height="auto">
+          
+        <div class="collapse navbar-collapse " id="navbar-toggler">
+          
+
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link" href="#">INICO</a>
+                <a class="nav-link" href="./index.html">INICIO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/combos.html">COMBOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/kitimprimibles.html"
-                  >KIT IMPRIMIBLES</a
-                >
+                <a class="nav-link" href="./pages/kitimprimibles.html">KIT IMPRIMIBLES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/sobrenosotros.html"
-                  >SOBRE NOSOTROS</a
-                >
+                <a class="nav-link" href="./pages/sobrenosotros.html">SOBRE NOSOTROS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                BUSCAR
-              </button>
-            </form>
+            
           </div>
         </div>
       </nav>
     </header>
-    <p class="p-2">...tenemos toda la deco que necesitas para tu party...</p>
-    <div class="container mx-auto">
+    <div class="container">
       <div class="row">
         <div class="col">
-          <video controls width="200" height="auto">
-            <source src="./img/video1.mp4" type="video/mp4" />
-            <source src="./img/video1.ogg" type="video/ogg" />
-          </video>
+          <p class="parrafo_header">...tenemos toda la deco para tu party...</p>
         </div>
       </div>
     </div>
-
     <!-- aqui comienza el footer -->
-
-    <footer>
-      <div class="container">
-        <div class="row mb-2 text-center">
-          <div class="col">
-            <i class="fab fa-facebook-f p-2"></i>
-            <i class="fab fa-google p-2"></i>
-            <i class="fab fa-instagram p-2"></i>
-            <i class="fab fa-github p-2"></i>
-          </div>
-        </div>
-
-        <div class="row text-center">
-          <div class="col">
-            <p class="mb-2">
-              Gracias por visitar nuestro sitio. Si te gusto recomendanos, si
-              tienes algun reclamo te invito a compartirlo con nosotros para
-              ayudarnos a crecer. Estamos on-line de 9:00 a 12:00 y de 17:00 a
-              20:00hs.
-            </p>
-          </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="copyright" class="row">
-          <div class="col">
-            <p class="text-white text-center mb-4 p-2">
-              © 2023 Copyright: Valee.Riba
-            </p>
-          </div>
-        </div>
+<footer>
+  <class="container-fluid">
+    <div class="row">
+      <div class="col text-center"> 
+        <i class="fab fa-facebook-f p-2"></i>
+        <i class="fab fa-google p-2"></i>
+        <i class="fab fa-instagram p-2"></i>
+        <i class="fab fa-github p-2"></i>
       </div>
-    </footer>
+    </div>
+    <div class="row">  
+      <p class="m-2 text-center p-4">
+        Gracias por visitar nuestro sitio. Si te gusto recomendanos, si
+        tienes algun reclamo te invito a compartirlo con nosotros para
+        ayudarnos a crecer. 
+        Estamos on-line de 9:00 a 12:00 y de 17:00 a
+        20:00hs.
+      </p>
+    </div>
 
+    <div class="row">
+      <div class="fondo" class="col">
+        <p class="text-white text-center mb-2 p-2">© 2023 Copyright: Valee.Riba</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+    
     <!-- enlace al whattsap -->
     <a
       href="https://api.whatsapp.com/send?phone=3535655701&text=Hola%20,te%20asesoramos%20por

@@ -19,22 +19,50 @@
   background-color: white;
 }
 
-header {
-  background-color: brown;
+.body {
+  background-color: aqua;
+  font-family: "Vina Sans", cursiva;
 }
 
+/* barra de navegacion */
+.navbar {
+  padding: 2rem;
+  background-color: white;
+}
+.navbar .navbar-toggler {
+  background-color: #edbcff;
+  color: white;
+}
+.navbar .navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav-link {
+  color: #ad0069;
+}
+
+.nav-item {
+  justify-content: center;
+  margin: 2px;
+}
+.nav-item:hover {
+  background-color: #edbcff;
+}
+
+/* header */
+.parrafo_header {
+  color: #ad0069;
+}
+
+/* footer */
 footer {
   background-color: #edbcff;
 }
 footer p {
   color: #ad0069;
 }
-footer .copyright {
+footer .fondo {
   background-color: #ad0069;
-}
-
-body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
