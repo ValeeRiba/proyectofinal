@@ -53,18 +53,11 @@ body {
   background-color: $info;
 }
 
-/* main */
-main p {
-  color: $secondary;
-}
 /* footer */
+
 footer {
   background-color: $info;
-
-  p {
-    color: $secondary;
-  }
-  .fondo {
-    background-color: $secondary;
+  .text-color {
+    color: $primary;
   }
 }
