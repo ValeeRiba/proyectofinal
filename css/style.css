@@ -1,4 +1,14 @@
 /*variables colores*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Happy Monkey", cursive;
+}
+
 .whatsapp {
   color: white;
   position: fixed;
@@ -26,31 +36,27 @@
 
 /* barra de navegacion */
 .navbar {
+  box-shadow: 0px 1px 10px rgb(207, 126, 214);
   padding: 2rem;
   background-color: white;
-}
-.navbar .navbar-toggler {
-  background-color: #edbcff;
-  color: white;
 }
 .navbar .navbar-collapse {
   align-items: center;
   justify-content: space-between;
 }
+.navbar .navbar-toggler {
+  background-color: #edbcff;
+}
 .navbar .nav-link {
   color: #ad0069;
 }
 
-.nav-item {
-  justify-content: center;
-  margin: 2px;
-}
-.nav-item:hover {
+.nav-link:hover {
   background-color: #edbcff;
 }
 
-/* header */
-.parrafo_header {
+/* main */
+main p {
   color: #ad0069;
 }
 
@@ -63,6 +69,12 @@ footer p {
 }
 footer .fondo {
   background-color: #ad0069;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
