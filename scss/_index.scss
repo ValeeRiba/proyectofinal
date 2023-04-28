@@ -9,7 +9,7 @@ body {
 
 /* barra de navegacion */
 .navbar {
-  box-shadow: 0px 1px 10px rgb(207, 126, 214);
+  box-shadow: 0px 1px 10px #accfcb;
   padding: 2rem;
   background-color: white;
   .navbar-collapse {
@@ -20,37 +20,40 @@ body {
     background-color: $info;
   }
   .nav-link {
-    color: $secondary;
+    color: $success;
   }
 }
 .nav-link:hover {
-  background-color: $info;
+  background-color: $secondary;
 }
 
 /* animacion de texto "party" */
 .title-word {
   animation: color-animation 4s linear infinite;
-  .title-word-1 {
-    --color-1: #df8453;
-    --color-2: #3d8dae;
-    --color-3: #e4a9a8;
-  }
-  .title-word-2 {
-    --color-1: #dbad4a;
-    --color-2: #accfcb;
-    --color-3: #17494d;
-  }
-  .title-word-3 {
-    --color-1: #accfcb;
-    --color-2: #e4a9a8;
-    --color-3: #accfcb;
-  }
+}
 
-  .title-word-4 {
-    --color-1: #3d8dae;
-    --color-2: #df8453;
-    --color-3: #e4a9a8;
-  }
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
 }
 
 @keyframes color-animation {
@@ -77,17 +80,18 @@ body {
   }
 }
 
-.container {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  height: 35vh;
-  .title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 3.5vw;
-    text-transform: uppercase;
-  }
+/* algunos efectos visuales */
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+}
+.party_evento {
+  font-family: "Lobster", cursive;
+  color: #3d8dae;
+  font-size: 30px;
 }
 
 /* icono de whattsap */
@@ -97,7 +101,7 @@ body {
   height: 35px;
   width: 35px;
   right: 20px;
-  bottom: 20px;
+  bottom: 50px;
   z-index: 100;
   line-height: 35px;
   font-size: 24px;
@@ -117,17 +121,18 @@ body {
   margin-bottom: $margeninferiorfoto;
 }
 .estilodetitulo {
-  font-size: 30px;
-  background-color: $info;
-  padding: 15px;
+  font-size: 40px;
   color: $primary;
+}
+.estilodesubitulo {
+  color: #df8453;
 }
 
 /* footer */
 
 footer {
-  background-color: $info;
+  background-color: $secondary;
   .text-color {
-    color: $primary;
+    color: $success;
   }
 }
