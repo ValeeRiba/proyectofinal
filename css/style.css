@@ -55,20 +55,12 @@ body {
   background-color: #edbcff;
 }
 
-/* main */
-main p {
-  color: #ad0069;
-}
-
 /* footer */
 footer {
   background-color: #edbcff;
 }
-footer p {
-  color: #ad0069;
-}
-footer .fondo {
-  background-color: #ad0069;
+footer .text-color {
+  color: #47005c;
 }
 
 @media screen and (max-width: 767px) {
