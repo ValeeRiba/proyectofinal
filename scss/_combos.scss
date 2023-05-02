@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn_encargar {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  color: $success;
+  border-radius: 6px;
+  margin: 12px;
+
+  border: 1px solid;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $secondary;
+  }
+}

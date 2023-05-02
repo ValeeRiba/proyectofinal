@@ -139,6 +139,29 @@ footer .text-color {
   color: #3d8dae;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn_encargar {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  color: #3d8dae;
+  border-radius: 6px;
+  margin: 12px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.btn_encargar:hover {
+  background-color: #accfcb;
+}
+
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
