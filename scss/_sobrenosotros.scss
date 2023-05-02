@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Happy Monkey", cursive;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  .titulo_nosotros {
+    color: $success;
+    font-size: 20px;
+  }
+
+  .titulo_historia {
+    color: $warning;
+  }
+}

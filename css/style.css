@@ -118,16 +118,13 @@ body {
 }
 
 /* seccion */
-.margeninferiorfoto {
+section .margeninferiorfoto {
   margin-bottom: 20px;
 }
-
-.estilodetitulo {
-  font-size: 40px;
-  color: #df8453;
-}
-
-.estilodesubitulo {
+section .estilodesubitulo {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
   color: #df8453;
 }
 
@@ -157,9 +154,62 @@ footer .text-color {
   margin: 12px;
   border: 1px solid;
   cursor: pointer;
+  transition: all 2s ease;
 }
 .btn_encargar:hover {
   background-color: #accfcb;
+}
+
+.titulo_historia {
+  color: #dbad4a;
+  font-size: 35px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Happy Monkey", cursive;
+}
+
+.kit_imprimible {
+  padding: 5px;
+  color: #3d8dae;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.kit_imprimible1 {
+  text-decoration: overline;
+  color: #3d8dae;
+  font-weight: 500;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Happy Monkey", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section .titulo_nosotros {
+  color: #3d8dae;
+  font-size: 20px;
+}
+section .titulo_historia {
+  color: #dbad4a;
 }
 
 @media screen and (max-width: 767px) {

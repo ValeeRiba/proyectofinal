@@ -14,11 +14,16 @@
   color: $success;
   border-radius: 6px;
   margin: 12px;
-
   border: 1px solid;
   cursor: pointer;
+  transition: all 2s ease;
 
   &:hover {
     background-color: $secondary;
   }
+}
+
+.titulo_historia {
+  color: $warning;
+  font-size: 35px;
 }

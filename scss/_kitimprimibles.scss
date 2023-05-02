@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Happy Monkey", cursive;
+}
+
+.kit_imprimible {
+  padding: 5px;
+  color: $success;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.kit_imprimible1 {
+  text-decoration: overline;
+  color: $success;
+  font-weight: 500;
+}

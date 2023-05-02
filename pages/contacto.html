@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -21,11 +20,14 @@
     ></script>
 
     <!-- favicon -->
-    <link rel="icon" href="./img/corazon (1).ico" type="imagen/ico" />
+    <link rel="icon" href="../img/corazon (1).ico" type="imagen/ico" />
     <!-- fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <enlace
       href="https: //fonts.googleapis.com/css2? family= Happy+Monkey & display=swap"
       rel="stylesheet"
@@ -41,80 +43,192 @@
     />
   </head>
 
+  <body>
+    <!-- aqui comienza la cabecera -->
+    <header>
+      <!-- barra de navegacion -->
+      <nav class="navbar fixed-top navbar-expand-lg bg-body">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-toggler"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#"
+              ><img src="../img/logonuevo.jpg" width="50" alt="logo"
+            /></a>
 
-
-
-
-<footer class="footer text-center">
-    <div class="container-fluid pb-0">
-     
-      <section class="">
-        <div class="row footer_parrafo">
-          <div class="col mt-3">
-            <h6 class="text-uppercase mb-4">
-              Estamos on-line de 9:00 a 12:00 y de 17:00 a 20:00hs.
-            </h6>
-            <p>
-              Gracias por visitar nuestro sitio. Si te gusto recomendanos, si
-        tienes algún reclamo te invito a compartirlo con nosotros para
-        ayudarnos a crecer.
-            </p>
+            <ul
+              class="navbar-nav d-flex justify-content-center align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./combos.html">COMBOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./kitimprimibles.html"
+                  >KIT IMPRIMIBLES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
-     
+      </nav>
+    </header>
 
-      <hr class="">
+    <section>
+      <h1
+        class="titulo_historia"
+        style="text-align: center; margin-top: 85px; margin-bottom: 25px"
+      >
+        CONTACTATE CON NOSOTROS
+      </h1>
 
-      <!-- Section: Copyright -->
-      <section class="p-3 pt-0">
-        <div class="row d-flex align-items-center">
-          <!-- Grid column -->
-          <div class="col-md-7 col-lg-8 text-center text-md-start">
-            <!-- Copyright -->
-            <div class="p-1 text-white">
-              <small>@Copy2023- <b>ValeeRiba</b></small>
+      <div class="container-fluid" style="margin-bottom: 25px">
+        <div class="row">
+          <div class="col-md-5" style="margin-bottom: 15px">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Nombre</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
             </div>
-            <!-- Copyright -->
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Apellido</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Correo</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Teléfono</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >Mensaje</span
+            >
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2"></label>
+            </div>
+            <input class="btn btn-primary mt-2" type="submit" value="Enviar" />
+            <input class="btn btn-primary mt-2" type="reset" value="Borrar" />
           </div>
-      
-          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-            <!-- Facebook -->
-            <a
-               class="btn btn-floating m-1 text-color"
-               role="button"
-               ><i class="fab fa-facebook-f"></i
-              ></a>
 
-            <!-- Twitter -->
-            <a
-               class="btn 
-                btn-floating m-1 text-color"
-               role="button"
-               ><i class="fab fa-twitter"></i
-             ></a>
-
-            <!-- Google -->
-            <a
-               class="btn btn-floating m-1
-               text-color"
-               role="button"
-               ><i class="fab fa-google"></i
-              ></a>
-
-            <!-- Instagram -->
-            <a
-               class="btn  btn-floating m-1 text-color"
-               role="button"
-               ><i class="fab fa-instagram"></i
-              ></a>
+          <div class="col-md-7" style="text-align: center">
+            <img
+              src="../img/tortugas.jpg"
+              alt="deco tortugas"
+              style="width: 100%"
+            />
           </div>
-       
         </div>
-      </section>
       </div>
-      </footer>
-      </div>  
+    </section>
+
+    <footer class="footer text-center">
+      <div class="container-fluid pb-0">
+        <section class="">
+          <div class="row footer_parrafo">
+            <div class="col mt-3">
+              <h6 class="text-uppercase mb-4">
+                Estamos on-line de 9:00 a 12:00 y de 17:00 a 20:00hs.
+              </h6>
+              <p>
+                Gracias por visitar nuestro sitio. Si te gusto recomendanos, si
+                tienes algún reclamo te invito a compartirlo con nosotros para
+                ayudarnos a crecer.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="" />
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-1 text-white">
+                <small>@Copy2023- <b>ValeeRiba</b></small>
+              </div>
+              <!-- Copyright -->
+            </div>
+
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Facebook -->
+              <a class="btn btn-floating m-1 text-color" role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-floating m-1 text-color" role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a class="btn btn-floating m-1 text-color" role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-floating m-1 text-color" role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
 
     <!-- enlace al whattsap -->
     <a

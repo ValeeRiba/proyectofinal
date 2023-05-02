@@ -117,15 +117,17 @@ body {
 }
 
 /* seccion */
-.margeninferiorfoto {
-  margin-bottom: $margeninferiorfoto;
-}
-.estilodetitulo {
-  font-size: 40px;
-  color: $primary;
-}
-.estilodesubitulo {
-  color: #df8453;
+section {
+  .margeninferiorfoto {
+    margin-bottom: $margeninferiorfoto;
+  }
+
+  .estilodesubitulo {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #df8453;
+  }
 }
 
 /* footer */
