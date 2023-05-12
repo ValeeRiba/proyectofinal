@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="decoracion para eventos, cumpleaños y fiestas, tenemos muchas novedades y productos originales"
+      content="decoracion para eventos, 
+      cumpleaños y fiestas, tenemos muchas novedades y productos originales"
     />
-    <meta name="keywords" content="cumpleaños, decoracion, eventos, party" />
+    <meta
+      name="keywords"
+      content="cumpleaños, decoracion, eventos, party, novedades"
+    />
     <title>Hacelo por mi-Deco para eventos</title>
 
     <!-- fontawesome -->
@@ -24,7 +28,8 @@
       src="https://kit.fontawesome.com/ea9937c6df.js"
       crossorigin="anonymous"
     ></script>
-
+    <!-- AOS ANIMACION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- favicon -->
     <link rel="icon" href="./img/corazon (1).ico" type="imagen/ico" />
     <!-- fuente -->
@@ -119,6 +124,7 @@
     <h2 style="padding-left: 10px; text-align: center" class="party_evento">
       si queres que tu evento sea único estás en el lugar indicado!
     </h2>
+    <!-- video -->
     <div style="width: 100%; display: block; text-align: center">
       <video
         src="./img/video1.mp4"
@@ -128,9 +134,9 @@
         style="margin-top: 10px"
       ></video>
     </div>
-
+    <!-- fotos -->
     <section>
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
             <p class="titulo_historia">EVENTOS!</p>
@@ -139,37 +145,42 @@
         <div class="row">
           <div class="col-md-4">
             <p class="estilodesubitulo">BAUTISMOS</p>
-            <img
-              class="margeninferiorfoto"
-              src="./img/bautismo.jpg"
-              alt="bautismo"
-              title="bautismo"
-            />
+            <div data-aos="fade-right">
+              <img
+                class="margeninferiorfoto img-fluid"
+                src="./img/bautismo.jpg"
+                alt="bautismo"
+                title="bautismo"
+              />
+            </div>
           </div>
           <div class="col-md-4">
             <p class="estilodesubitulo">CUMPLEAÑOS</p>
-            <img
-              class="margeninferiorfoto"
-              src="./img/cumples.jpg"
-              alt="cumples"
-              title="cumples"
-            />
+            <div data-aos="fade-right">
+              <img
+                class="margeninferiorfoto img-fluid"
+                src="./img/cumples.jpg"
+                alt="cumples"
+                title="cumples"
+              />
+            </div>
           </div>
           <div class="col-md-4">
             <p class="estilodesubitulo">ESPECIALES</p>
-            <img
-              class="margeninferiorfoto"
-              src="./img/casamiento.jpg"
-              alt="casamiento"
-              title="casamiento"
-            />
+            <div data-aos="fade-right">
+              <img
+                class="margeninferiorfoto img-fluid"
+                src="./img/casamiento.jpg"
+                alt="casamiento"
+                title="casamiento"
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     <section>
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
             <p class="titulo_historia">NOVEDADES!</p>
@@ -178,30 +189,39 @@
         <div class="row">
           <div class="col-md-4">
             <p class="estilodesubitulo">VASOS TELESCOPICOS</p>
-            <img
-              style="margin-bottom: 20px"
-              src="./img/vasos.jpg"
-              alt="vasos"
-              title="vasos"
-            />
+            <div data-aos="fade-right">
+              <img
+                class="margeninferiorfoto img-fluid"
+                style="margin-bottom: 20px"
+                src="./img/vasos.jpg"
+                alt="vasos"
+                title="vasos"
+              />
+            </div>
           </div>
           <div class="col-md-4">
             <p class="estilodesubitulo">DIFUSORES</p>
-            <img
-              style="margin-bottom: 20px"
-              src="./img/difusor.jpg"
-              alt="difusor"
-              title="difusor"
-            />
+            <div data-aos="fade-right">
+              <img
+                class="margeninferiorfoto img-fluid"
+                style="margin-bottom: 20px"
+                src="./img/difusor.jpg"
+                alt="difusor"
+                title="difusor"
+              />
+            </div>
           </div>
           <div class="col-md-4">
             <p class="estilodesubitulo">MEMO TEST</p>
-            <img
-              style="margin-bottom: 20px"
-              src="./img/memori.jpg"
-              alt="memori"
-              title="memori"
-            />
+            <div data-aos="fade-right">
+              <img
+                class="margeninferiorfoto img-fluid"
+                style="margin-bottom: 20px"
+                src="./img/memori.jpg"
+                alt="memori"
+                title="memori"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -280,5 +300,10 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
